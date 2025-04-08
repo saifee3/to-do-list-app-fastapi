@@ -1,5 +1,5 @@
 # TodoList App using FastAPI
-<img src="https://github.com/user-attachments/assets/684e2803-1d37-49b7-9233-2da694912b21" alt="Custom Icon" width="1050" height="300">
+<img src="https://github.com/user-attachments/assets/aadcedc2-7571-4244-8d82-8c3de62565f9" alt="Custom Icon" width="1050" height="400">
 
 ![GitHub Language Count](https://img.shields.io/github/languages/count/yourusername/todosphere?style=flat-square&color=green)
 ![GitHub License](https://img.shields.io/github/license/yourusername/todosphere?style=flat-square&color=orange)
@@ -19,7 +19,10 @@ Welcome to **ToDoKit**, a modern, intuitive task management application designed
 - **Data Persistence**: All tasks are securely stored in a PostgreSQL Neon database
 
 ## Screenshots
-<div align="center">   <img src="https://github.com/user-attachments/assets/fc30ea2d-5977-49e9-8f37-5e8efb5e42ea" alt="Custom Icon" width="400" height="700">  </div>
+<div align="center">   <img src="https://github.com/user-attachments/assets/0dac5dc1-3cf3-4ec8-badb-608d3c565eb1" alt="Custom Icon" width="1000" height="700">  </div>
+<div align="center">   <img src="https://github.com/user-attachments/assets/784f8141-5cf3-44e0-a86a-8285a7df7f9e" alt="Custom Icon" width="1000" height="700">  </div>
+<div align="center">   <img src="https://github.com/user-attachments/assets/fab4bc9e-15a2-4d41-819c-ded3cc28d81e" alt="Custom Icon" width="1000" height="700">  </div>
+<div align="center">   <img src="https://github.com/user-attachments/assets/4a862333-e832-47c3-a592-14dc4541ac20" alt="Custom Icon" width="1000" height="700">  </div>
 
 ## Technology Stack
 
@@ -361,7 +364,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **[FastAPI](https://fastapi.tiangolo.com/)** - The high-performance web framework used to build this API.
 - **[SQLAlchemy](https://www.sqlalchemy.org/)** - The SQL toolkit and ORM used for database interactions.
 - **[PostgreSQL Neon](https://neon.tech/)** - The Neon PostgreSQL database.
-- Banner Image by **Real Python** on https://realpython.com/django-rest-framework-quick-start/
+- Banner Image by **Real Python** on https://realpython.com/fastapi-python-web-apis/
 
 
 
