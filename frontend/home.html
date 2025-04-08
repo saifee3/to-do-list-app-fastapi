@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoKit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="gradient-bg">
+    <nav class="glass-nav">
+        <div class="container mx-auto flex justify-between items-center px-6 py-4">
+            <div class="flex items-center">
+                <img src="images/logoimg.png" class="w-12 h-12 mr-3" alt="TodoSphere Logo">
+                <span class="logo-text text-2xl">TodoKit---presented to you by SAIF</span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <div id="welcome-message" class="text-gray-300 text-sm"></div>
+                <button id="logout-btn" class="cta-btn">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="glass-card p-6 rounded-xl mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-gray-100">Add Task</h2>
+            <form id="task-form" class="glass-card p-6 rounded-xl mb-8">
+                <input type="hidden" id="task-id">
+                <h2 class="text-xl font-semibold mb-4 text-gray-100">Write Your Task:</h2>
+                <div class="space-y-4">
+                  <input type="text" id="task-title" name="title" required
+                         class="w-full p-3 rounded-lg text-black placeholder-gray-400"
+                         placeholder="Task title">
+                  <textarea id="task-desc" name="description"
+                            class="w-full p-3 rounded-lg text-black placeholder-gray-400"
+                            placeholder="Description (optional)"></textarea>
+                  <div id="task-message" class="message-container"></div>
+                  <button type="submit" id="submit-task" class="cta-btn w-full py-3 rounded-lg">
+                    Add Task
+                  </button>
+                </div>
+              </form>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-xl font-semibold text-gray-100">Task List</h2>
+                <span id="task-count" class="text-gray-300 text-sm"></span>
+            </div>
+            <div id="task-list" class="space-y-4">
+                <div class="task-item flex items-center justify-between p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all">
+                    <div class="flex items-center space-x-4 flex-1">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="hidden">
+                            <div class="w-6 h-6 border-2 border-gray-400 rounded-md flex items-center justify-center transition-all">
+                                <svg class="checkmark hidden w-4 h-4 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                        </label>
+                        
+                        <div class="flex-1">
+                            <h3 class="task-title font-semibold text-gray-100">Sample Task Title</h3>
+                            <p class="task-desc text-gray-400 text-sm mt-1">Sample task description</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-2 ml-4">
+                        <button class="edit-btn px-3 py-1.5 rounded-md bg-white/10 text-gray-300 hover:bg-white/20 transition-all" data-action="edit">
+                            <i class="fas fa-pencil-alt text-sm"></i>
+                            <span class="ml-2">Edit</span>
+                        </button>
+                        <button class="delete-btn px-3 py-1.5 rounded-md bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-all" data-action="delete">
+                            <i class="fas fa-trash text-sm"></i>
+                            <span class="ml-2">Delete</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <script src="js/home.js"></script>
+</body>
+</html>

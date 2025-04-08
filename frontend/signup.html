@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | TodoKit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body class="gradient-bg">
+    <div class="container mx-auto px-4 h-screen flex items-center justify-center">
+        <div class="glass-card p-8 rounded-3xl shadow-2xl w-full max-w-md text-center">
+            <div class="flex items-center justify-center mb-8">
+                <img src="images/logoimg.png" class="w-16 h-16 mr-4" alt="Logo">
+                <h1 class="text-5xl font-bold bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+                    TodoKit
+                </h1>
+            </div>
+
+            <div class="my-6 border-b-2 border-gray-400 w-90 mx-auto"></div>
+            
+            <h2 class="text-gray-300 text-xl mb-12">Organize Your World, Achieve More</h2>
+            <div class="space-y-6 mb-12">
+                <p class="text-lg text-gray-300">Create your account</p>
+                <form id="signup-form" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="text" id="first_name" name="first_name" required
+                               class="task-input rounded-lg px-4 py-3 focus:ring-2 focus:ring-orange-400"
+                               placeholder="First Name">
+                        <input type="text" id="last_name" name="last_name" required
+                               class="task-input rounded-lg px-4 py-3 focus:ring-2 focus:ring-orange-400"
+                               placeholder="Last Name">
+                    </div>
+                    <input type="email" id="email" name="email" required
+                           class="w-full task-input rounded-lg px-4 py-3 focus:bg-white/15 focus:border-orange-300"
+                           placeholder="Email Address">
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="date" id="date_of_birth" name="date_of_birth" required
+                               class="peer task-input rounded-lg px-4 py-3 focus:bg-black/15 focus:border-orange-300">
+                        <select id="gender" name="gender" required
+                                class="task-input rounded-lg px-4 py-3 focus:ring-2 focus:ring-orange-400">
+                            <option value="" disabled selected hidden>Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <input type="password" id="password" name="password" required
+                           class="w-full task-input rounded-lg px-4 py-3 focus:bg-black/15 focus:border-orange-300"
+                           placeholder="Create Password">
+                    <div id="signup-message" class="message-container"></div>
+                    <button type="submit" class="cta-btn w-full py-3 rounded-lg">
+                        Sign Up
+                    </button>
+                </form>
+
+                <p class="text-center text-gray-400 mt-6">
+                    Already have an account? 
+                    <a href="login.html" class="text-orange-300 hover:underline font-semibold">
+                        Login Here
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/signup.js"></script>
+    <footer class="fixed bottom-0 left-0 right-0 py-4 px-6 bg-opacity-10 backdrop-blur-sm flex items-center justify-center text-white">
+        <div class="text-sm">
+            &copy; 2023 ToDoKit. All rights reserved.
+            <a href="/privacy-policy" class="ml-4 hover:underline">Privacy Policy</a>
+            <a href="/terms" class="ml-4 hover:underline">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>

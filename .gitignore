@@ -1,0 +1,82 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+env/
+.venv/
+virtualenv/
+.*/env/
+
+# IDEs and Editors
+.idea/
+*.pydevproject
+*.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.suo
+*.csproj
+*.suo
+*.user
+*.userosscache
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and Temp Files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Configuration
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Database
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Generated files
+dist/
+build/
+*.egg-info/
+*.egg
+
+# FastAPI specific
+instance/
+__init__.pyc
+__init__.pyo
+__init__.pyd
+
+# HTML/CSS/JS build files
+*.min.js
+*.min.css
+*.map
+
+# Frontend build directories
+node_modules/
+dist/
+build/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.swn
