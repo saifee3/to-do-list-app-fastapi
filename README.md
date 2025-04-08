@@ -1,8 +1,8 @@
 # TodoList App using FastAPI
 <img src="https://github.com/user-attachments/assets/aadcedc2-7571-4244-8d82-8c3de62565f9" alt="Custom Icon" width="1050" height="400">
 
-![GitHub Language Count](https://img.shields.io/github/languages/count/yourusername/todosphere?style=flat-square&color=green)
-![GitHub License](https://img.shields.io/github/license/yourusername/todosphere?style=flat-square&color=orange)
+![GitHub Language Count](https://img.shields.io/github/languages/count/saifee3/todosphere?style=flat-square&color=green)
+![GitHub License](https://img.shields.io/github/license/saifee3/todosphere?style=flat-square&color=orange)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square)
 ![FastAPI Version](https://img.shields.io/badge/fastapi-0.100.0%2B-blue?style=flat-square)
 ![Build Status](https://img.shields.io/badge/build-passing-success?style=flat-square)
