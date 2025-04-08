@@ -1,4 +1,3 @@
-to-do-list-app-FastAPI
 # TodoList App using FastAPI
 <img src="https://github.com/user-attachments/assets/684e2803-1d37-49b7-9233-2da694912b21" alt="Custom Icon" width="1050" height="300">
 
@@ -18,6 +17,9 @@ Welcome to **ToDoKit**, a modern, intuitive task management application designed
 - **Responsive Design**: Works seamlessly across desktops, tablets, and mobile devices
 - **Real-time Updates**: Instant feedback on task operations
 - **Data Persistence**: All tasks are securely stored in a PostgreSQL Neon database
+
+## Screenshots
+<div align="center">   <img src="https://github.com/user-attachments/assets/fc30ea2d-5977-49e9-8f37-5e8efb5e42ea" alt="Custom Icon" width="400" height="700">  </div>
 
 ## Technology Stack
 
@@ -358,9 +360,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **[FastAPI](https://fastapi.tiangolo.com/)** - The high-performance web framework used to build this API.
 - **[SQLAlchemy](https://www.sqlalchemy.org/)** - The SQL toolkit and ORM used for database interactions.
-- **[PostgreSQL Neon](https://neon.tech/)** - The managed, serverless PostgreSQL database.
-- **[Banner Image](https://realpython.com/fastapi-python-web-apis/)** - The banner image is form Real Python.
-
+- **[PostgreSQL Neon](https://neon.tech/)** - The Neon PostgreSQL database.
+- Banner Image by **Real Python** on https://realpython.com/django-rest-framework-quick-start/
 
 
 
