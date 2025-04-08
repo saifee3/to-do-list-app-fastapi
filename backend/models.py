@@ -12,12 +12,6 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 SECRET_KEY = "your-secret-key"  # Should be stored in environment variables in production
 ALGORITHM = "HS256"
 
-# # Pydantic model for task creation validation
-# class TaskCreate(BaseModel):
-#     title: str
-#     description: Optional[str] = None
-#     completed: bool = False
-
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
