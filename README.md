@@ -5,7 +5,6 @@
 ![GitHub License](https://img.shields.io/github/license/saifee3/todosphere?style=flat-square&color=orange)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square)
 ![FastAPI Version](https://img.shields.io/badge/fastapi-0.100.0%2B-blue?style=flat-square)
-![Build Status](https://img.shields.io/badge/build-passing-success?style=flat-square)
 ![Neon](https://img.shields.io/badge/Neon-00F793?style=flat-square&logo=databricks&logoColor=white)
 
 
